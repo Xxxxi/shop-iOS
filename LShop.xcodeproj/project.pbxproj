@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D51F332B21B11B760005B66C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D51F332A21B11B760005B66C /* AppDelegate.m */; };
+		D51F332E21B11B760005B66C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D51F332D21B11B760005B66C /* ViewController.m */; };
+		D51F333121B11B760005B66C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51F332F21B11B760005B66C /* Main.storyboard */; };
+		D51F333321B11BDD0005B66C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D51F333221B11BDD0005B66C /* Assets.xcassets */; };
+		D51F333621B11BDD0005B66C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D51F333421B11BDD0005B66C /* LaunchScreen.storyboard */; };
+		D51F333921B11BDD0005B66C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D51F333821B11BDD0005B66C /* main.m */; };
+		D51F334021B11C4C0005B66C /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = D51F333F21B11C4C0005B66C /* Podfile */; };
+		D51F334521B11DF80005B66C /* LShopNetworking.m in Sources */ = {isa = PBXBuildFile; fileRef = D51F334421B11DF80005B66C /* LShopNetworking.m */; };
+		D51F334F21B123830005B66C /* MBProgressHUD+XW_HUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D51F334E21B123830005B66C /* MBProgressHUD+XW_HUD.m */; };
+		D51F335221B126B80005B66C /* UIImage+xxi.m in Sources */ = {isa = PBXBuildFile; fileRef = D51F335121B126B80005B66C /* UIImage+xxi.m */; };
+		D51F335521B128860005B66C /* UIDevice+xxi.m in Sources */ = {isa = PBXBuildFile; fileRef = D51F335421B128860005B66C /* UIDevice+xxi.m */; };
+		E18FC1BFBA09818CBEA7C0E8 /* libPods-LShop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCFF192D4B6DF37A8CE5391 /* libPods-LShop.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		524E4ED43077EB5C9150E444 /* Pods-LShop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LShop.release.xcconfig"; path = "Pods/Target Support Files/Pods-LShop/Pods-LShop.release.xcconfig"; sourceTree = "<group>"; };
+		ACCFF192D4B6DF37A8CE5391 /* libPods-LShop.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-LShop.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51F332621B11B760005B66C /* LShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51F332921B11B760005B66C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D51F332A21B11B760005B66C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D51F332C21B11B760005B66C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D51F332D21B11B760005B66C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D51F333021B11B760005B66C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D51F333221B11BDD0005B66C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D51F333521B11BDD0005B66C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D51F333721B11BDD0005B66C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D51F333821B11BDD0005B66C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D51F333F21B11C4C0005B66C /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		D51F334221B11DCB0005B66C /* LShopApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LShopApi.h; sourceTree = "<group>"; };
+		D51F334321B11DF80005B66C /* LShopNetworking.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LShopNetworking.h; sourceTree = "<group>"; };
+		D51F334421B11DF80005B66C /* LShopNetworking.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LShopNetworking.m; sourceTree = "<group>"; };
+		D51F334621B11E590005B66C /* LShopPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LShopPrefixHeader.pch; sourceTree = "<group>"; };
+		D51F334D21B123830005B66C /* MBProgressHUD+XW_HUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+XW_HUD.h"; sourceTree = "<group>"; };
+		D51F334E21B123830005B66C /* MBProgressHUD+XW_HUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+XW_HUD.m"; sourceTree = "<group>"; };
+		D51F335021B126B80005B66C /* UIImage+xxi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+xxi.h"; sourceTree = "<group>"; };
+		D51F335121B126B80005B66C /* UIImage+xxi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+xxi.m"; sourceTree = "<group>"; };
+		D51F335321B128860005B66C /* UIDevice+xxi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIDevice+xxi.h"; sourceTree = "<group>"; };
+		D51F335421B128860005B66C /* UIDevice+xxi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+xxi.m"; sourceTree = "<group>"; };
+		FBFBE51175D963CD3DFC1514 /* Pods-LShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LShop/Pods-LShop.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D51F332321B11B760005B66C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E18FC1BFBA09818CBEA7C0E8 /* libPods-LShop.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9F9887064330A2B2370B1263 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FBFBE51175D963CD3DFC1514 /* Pods-LShop.debug.xcconfig */,
+				524E4ED43077EB5C9150E444 /* Pods-LShop.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6195DB39A5A188CA9BC8463 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ACCFF192D4B6DF37A8CE5391 /* libPods-LShop.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D51F331D21B11B750005B66C = {
+			isa = PBXGroup;
+			children = (
+				D51F333F21B11C4C0005B66C /* Podfile */,
+				D51F332821B11B760005B66C /* LShop */,
+				D51F332721B11B760005B66C /* Products */,
+				9F9887064330A2B2370B1263 /* Pods */,
+				B6195DB39A5A188CA9BC8463 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		D51F332721B11B760005B66C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D51F332621B11B760005B66C /* LShop.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D51F332821B11B760005B66C /* LShop */ = {
+			isa = PBXGroup;
+			children = (
+				D51F334B21B121C70005B66C /* Appdelegate */,
+				D51F334A21B121AE0005B66C /* Tools */,
+				D51F334921B120870005B66C /* Resource */,
+				D51F334821B11EA60005B66C /* Other */,
+				D51F334721B11E8C0005B66C /* Base */,
+				D51F332C21B11B760005B66C /* ViewController.h */,
+				D51F332D21B11B760005B66C /* ViewController.m */,
+			);
+			path = LShop;
+			sourceTree = "<group>";
+		};
+		D51F334721B11E8C0005B66C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D51F334621B11E590005B66C /* LShopPrefixHeader.pch */,
+				D51F334221B11DCB0005B66C /* LShopApi.h */,
+				D51F334321B11DF80005B66C /* LShopNetworking.h */,
+				D51F334421B11DF80005B66C /* LShopNetworking.m */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D51F334821B11EA60005B66C /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D51F332F21B11B760005B66C /* Main.storyboard */,
+				D51F333421B11BDD0005B66C /* LaunchScreen.storyboard */,
+				D51F333721B11BDD0005B66C /* Info.plist */,
+				D51F333821B11BDD0005B66C /* main.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D51F334921B120870005B66C /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D51F333221B11BDD0005B66C /* Assets.xcassets */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D51F334A21B121AE0005B66C /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				D51F334C21B123290005B66C /* Categories */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		D51F334B21B121C70005B66C /* Appdelegate */ = {
+			isa = PBXGroup;
+			children = (
+				D51F332921B11B760005B66C /* AppDelegate.h */,
+				D51F332A21B11B760005B66C /* AppDelegate.m */,
+			);
+			path = Appdelegate;
+			sourceTree = "<group>";
+		};
+		D51F334C21B123290005B66C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				D51F334D21B123830005B66C /* MBProgressHUD+XW_HUD.h */,
+				D51F334E21B123830005B66C /* MBProgressHUD+XW_HUD.m */,
+				D51F335021B126B80005B66C /* UIImage+xxi.h */,
+				D51F335121B126B80005B66C /* UIImage+xxi.m */,
+				D51F335321B128860005B66C /* UIDevice+xxi.h */,
+				D51F335421B128860005B66C /* UIDevice+xxi.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D51F332521B11B760005B66C /* LShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D51F333C21B11BDD0005B66C /* Build configuration list for PBXNativeTarget "LShop" */;
+			buildPhases = (
+				4208A311980C057C8BFA2675 /* [CP] Check Pods Manifest.lock */,
+				D51F332221B11B760005B66C /* Sources */,
+				D51F332321B11B760005B66C /* Frameworks */,
+				D51F332421B11B760005B66C /* Resources */,
+				CCABC7D17FA000FC12DDE981 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LShop;
+			productName = LShop;
+			productReference = D51F332621B11B760005B66C /* LShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D51F331E21B11B750005B66C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Chomp;
+				TargetAttributes = {
+					D51F332521B11B760005B66C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = D51F332121B11B750005B66C /* Build configuration list for PBXProject "LShop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D51F331D21B11B750005B66C;
+			productRefGroup = D51F332721B11B760005B66C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D51F332521B11B760005B66C /* LShop */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D51F332421B11B760005B66C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51F333621B11BDD0005B66C /* LaunchScreen.storyboard in Resources */,
+				D51F333321B11BDD0005B66C /* Assets.xcassets in Resources */,
+				D51F334021B11C4C0005B66C /* Podfile in Resources */,
+				D51F333121B11B760005B66C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		4208A311980C057C8BFA2675 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-LShop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCABC7D17FA000FC12DDE981 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-LShop/Pods-LShop-resources.sh",
+				"${PODS_ROOT}/IQKeyboardManager/IQKeyboardManager/Resources/IQKeyboardManager.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/IQKeyboardManager.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LShop/Pods-LShop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D51F332221B11B760005B66C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D51F332E21B11B760005B66C /* ViewController.m in Sources */,
+				D51F334F21B123830005B66C /* MBProgressHUD+XW_HUD.m in Sources */,
+				D51F333921B11BDD0005B66C /* main.m in Sources */,
+				D51F335221B126B80005B66C /* UIImage+xxi.m in Sources */,
+				D51F334521B11DF80005B66C /* LShopNetworking.m in Sources */,
+				D51F332B21B11B760005B66C /* AppDelegate.m in Sources */,
+				D51F335521B128860005B66C /* UIDevice+xxi.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D51F332F21B11B760005B66C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D51F333021B11B760005B66C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D51F333421B11BDD0005B66C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D51F333521B11BDD0005B66C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D51F333A21B11BDD0005B66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D51F333B21B11BDD0005B66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D51F333D21B11BDD0005B66C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FBFBE51175D963CD3DFC1514 /* Pods-LShop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85R76P9AJ2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/chenlin/Desktop/xxiProducter/LShop/LShop/Base/LShopPrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/LShop/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chomp.LShop.xxi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D51F333E21B11BDD0005B66C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 524E4ED43077EB5C9150E444 /* Pods-LShop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 85R76P9AJ2;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/chenlin/Desktop/xxiProducter/LShop/LShop/Base/LShopPrefixHeader.pch;
+				INFOPLIST_FILE = "$(SRCROOT)/LShop/Other/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = chomp.LShop.xxi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D51F332121B11B750005B66C /* Build configuration list for PBXProject "LShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51F333A21B11BDD0005B66C /* Debug */,
+				D51F333B21B11BDD0005B66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D51F333C21B11BDD0005B66C /* Build configuration list for PBXNativeTarget "LShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D51F333D21B11BDD0005B66C /* Debug */,
+				D51F333E21B11BDD0005B66C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D51F331E21B11B750005B66C /* Project object */;
+}
