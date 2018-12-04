@@ -8,5 +8,6 @@ pod 'Masonry'
 pod 'ReactiveCocoa','~> 2.5'
 pod 'AFNetworking'
 pod 'MBProgressHUD'
+pod 'YYKit'
 end
 
