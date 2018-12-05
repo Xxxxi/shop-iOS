@@ -28,9 +28,15 @@ typedef void(^xxiResponseSuccess)(id responseObject);
  */
 typedef void(^xxiResponseFail)(NSURLSessionDataTask *task, NSError *error);
 
-#pragma  mark 获取商品列表
-+(void)getProductsResponseSuccess:(xxiResponseSuccess)success
-                     ResponseFail:(xxiResponseFail)fail;
+#pragma mark  获取商品列表(可通过筛选条件和页码)
++(void)getProductsByParams:(NSDictionary *)dic
+           ResponseSuccess:(xxiResponseSuccess)success
+              ResponseFail:(xxiResponseFail)fail;
+
+#pragma mark 获取单一商品详情
++(void)getSingleProductDetailByProductID:(NSString *)productId
+                         ResponseSuccess:(xxiResponseSuccess)success
+                            ResponseFail:(xxiResponseFail)fail;
 
 
 @end

@@ -21,6 +21,8 @@
 #import "ProductModel.h"
 #import "LShopGoodsRequest.h"
 #import "YYKit.h"
+#import "LShopGoodsReturnData.h"
+#import "LShopOrderRequest.h"
 //#import "AvoidCrash.h"
 
 // Include any system framework and library headers here that should be included in all compilation units.

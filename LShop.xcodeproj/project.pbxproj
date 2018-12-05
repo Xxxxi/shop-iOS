@@ -20,6 +20,8 @@
 		D51F335521B128860005B66C /* UIDevice+xxi.m in Sources */ = {isa = PBXBuildFile; fileRef = D51F335421B128860005B66C /* UIDevice+xxi.m */; };
 		D51F335821B4C3D60005B66C /* LShopGoodsRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D51F335721B4C3D50005B66C /* LShopGoodsRequest.m */; };
 		D51F335D21B4C73C0005B66C /* ProductModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D51F335C21B4C73C0005B66C /* ProductModel.m */; };
+		D51F336621B77BE30005B66C /* LShopGoodsReturnData.m in Sources */ = {isa = PBXBuildFile; fileRef = D51F336521B77BE30005B66C /* LShopGoodsReturnData.m */; };
+		D51F336921B7C5F10005B66C /* LShopOrderRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = D51F336821B7C5F10005B66C /* LShopOrderRequest.m */; };
 		E18FC1BFBA09818CBEA7C0E8 /* libPods-LShop.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ACCFF192D4B6DF37A8CE5391 /* libPods-LShop.a */; };
 /* End PBXBuildFile section */
 
@@ -51,6 +53,10 @@
 		D51F335721B4C3D50005B66C /* LShopGoodsRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LShopGoodsRequest.m; sourceTree = "<group>"; };
 		D51F335B21B4C73C0005B66C /* ProductModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProductModel.h; sourceTree = "<group>"; };
 		D51F335C21B4C73C0005B66C /* ProductModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProductModel.m; sourceTree = "<group>"; };
+		D51F336421B77BE30005B66C /* LShopGoodsReturnData.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LShopGoodsReturnData.h; sourceTree = "<group>"; };
+		D51F336521B77BE30005B66C /* LShopGoodsReturnData.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LShopGoodsReturnData.m; sourceTree = "<group>"; };
+		D51F336721B7C5F10005B66C /* LShopOrderRequest.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LShopOrderRequest.h; sourceTree = "<group>"; };
+		D51F336821B7C5F10005B66C /* LShopOrderRequest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LShopOrderRequest.m; sourceTree = "<group>"; };
 		FBFBE51175D963CD3DFC1514 /* Pods-LShop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LShop.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LShop/Pods-LShop.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -126,6 +132,10 @@
 				D51F334421B11DF80005B66C /* LShopNetworking.m */,
 				D51F335621B4C3D50005B66C /* LShopGoodsRequest.h */,
 				D51F335721B4C3D50005B66C /* LShopGoodsRequest.m */,
+				D51F336721B7C5F10005B66C /* LShopOrderRequest.h */,
+				D51F336821B7C5F10005B66C /* LShopOrderRequest.m */,
+				D51F336421B77BE30005B66C /* LShopGoodsReturnData.h */,
+				D51F336521B77BE30005B66C /* LShopGoodsReturnData.m */,
 			);
 			path = Base;
 			sourceTree = "<group>";
@@ -311,12 +321,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				D51F332E21B11B760005B66C /* ViewController.m in Sources */,
+				D51F336921B7C5F10005B66C /* LShopOrderRequest.m in Sources */,
 				D51F335D21B4C73C0005B66C /* ProductModel.m in Sources */,
 				D51F335821B4C3D60005B66C /* LShopGoodsRequest.m in Sources */,
 				D51F334F21B123830005B66C /* MBProgressHUD+XW_HUD.m in Sources */,
 				D51F333921B11BDD0005B66C /* main.m in Sources */,
 				D51F335221B126B80005B66C /* UIImage+xxi.m in Sources */,
 				D51F334521B11DF80005B66C /* LShopNetworking.m in Sources */,
+				D51F336621B77BE30005B66C /* LShopGoodsReturnData.m in Sources */,
 				D51F332B21B11B760005B66C /* AppDelegate.m in Sources */,
 				D51F335521B128860005B66C /* UIDevice+xxi.m in Sources */,
 			);

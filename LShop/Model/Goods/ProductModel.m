@@ -11,6 +11,7 @@
 @implementation ProductModel
 
 #if 0
+
 -(instancetype)init{
     if(self = [super init]){
         self.g_id = @"";
@@ -45,6 +46,7 @@
 @end
 
 
+#pragma mark 只进行简单的声明，不进行任何的操作
 @implementation GoodsSkuModel
 
 @end
